@@ -21,35 +21,41 @@ Building web applications, APIs, and experimenting with systems programming. Run
 ![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white)
 ![C%23](https://img.shields.io/badge/-C%23-239120?style=flat-square&logo=csharp&logoColor=white)
 ![Lua](https://img.shields.io/badge/-Lua-2C2D72?style=flat-square&logo=lua&logoColor=white)
-![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
 **Frontend**  
 ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/-Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+![Shopify Liquid](https://img.shields.io/badge/-Shopify%20Liquid-7AB55C?style=flat-square&logo=shopify&logoColor=white)
 
 **Backend & Frameworks**  
 ![Laravel](https://img.shields.io/badge/-Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
 ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![NestJS](https://img.shields.io/badge/-NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
 ![Tauri](https://img.shields.io/badge/-Tauri-FFC131?style=flat-square&logo=tauri&logoColor=black)
 
 **Tools & Infrastructure**  
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Traefik](https://img.shields.io/badge/-Traefik-24A1C1?style=flat-square&logo=traefikproxy&logoColor=white)
 ![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Caddy](https://img.shields.io/badge/-Caddy-1F88C0?style=flat-square&logo=caddy&logoColor=white)
+![Azure DevOps](https://img.shields.io/badge/-Azure%20DevOps-0078D7?style=flat-square&logo=azuredevops&logoColor=white)
 
 **Experience with**  
 WebSockets • REST APIs • Reverse Proxies • Server Infrastructure • Database Design • Real-time Applications
 
 ## Self-Hosted Infrastructure
 
-Running my own **Windows 11 production server** with:
-- **Web Hosting** - Caddy reverse proxy with PHP-FPM for Laravel applications
-- **Game Server Hosting** - Multiple game instances and mods
+Running my own **Ubuntu 24 production server** with everything containerized in Docker:
+
+- **Traefik** - Reverse proxy routing traffic to all containers
+- **Dokploy** - Deployment panel with Git-synced auto-deployments
+- **Web Hosting** - Laravel, Next.js, and Shopify apps in production
+- **Game Server Hosting** - Multiple game instances via Docker
 - **Discord Bot Hosting** - Custom automation and community management
-- **Database Hosting** - MySQL, Redis, and other database solutions
-- **Plus various other services** - Continuous deployment, monitoring, and experimentation
+- **Databases** - MariaDB, PostgreSQL, Redis, and self-hosted Supabase
 
 ---
 
