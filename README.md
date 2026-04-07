@@ -2,7 +2,7 @@
 
 **21 | Netherlands | Full-Stack Developer**
 
-I build web applications, self-host my own production infrastructure, and run my own company. Most of my work revolves around Laravel backends with React/TypeScript frontends, deployed on my own Docker-based server. I'm always looking for new projects to take on.
+I build web applications, self-host my own production infrastructure, and run my own company. I'm also an active crypto trader, which drives my work on trading platforms. Most of my work revolves around full stack projects, deployed on my own Docker-based server. I'm always looking for new projects to take on.
 
 ## What I'm Working On
 
