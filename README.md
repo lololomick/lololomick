@@ -6,8 +6,10 @@ I build web applications, self-host my own production infrastructure, and run my
 
 ## What I'm Working On
 
-### Shopify Inventory & Fulfillment App
-A full-stack Shopify application that connects a store's inventory directly to its supplier through a custom API. The app syncs product data across the Shopify GraphQL API and Bol.com API, automatically keeping stock levels and pricing up to date. It handles uploading new products, removing discontinued ones, and uses the MyParcel API to trigger custom actions on incoming orders. 
+### Inventory & Fulfillment App
+A full-stack platform built around a Shopify store, consisting of a backend integration, native mobile apps for customers, and a custom dashboard for staff.
+The backend connects the store's inventory directly to its supplier through a custom API, syncing product data between the Shopify GraphQL API and the Bol.com API to automatically keep stock levels and pricing up to date. It handles uploading new products, removing discontinued ones, and uses the MyParcel API to trigger custom actions on incoming orders. A full SEPA mandate system via the Mollie API powers in-store subscriptions.
+Customers can browse and order through dedicated Android and iOS apps, while staff manage day-to-day operations through the internal dashboard.
 <br>
 *This is a private application built for a specific client and is not publicly available.*
 
