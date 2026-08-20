@@ -1,23 +1,25 @@
 # Hey, I'm Mick
 
-**22 | Netherlands | Full-Stack Developer**
+**22 | Netherlands | Full-Stack Developer & Founder**
 
-I build web applications, self-host my own production infrastructure, and run my own company. I'm also an active crypto trader, which drives my work on trading platforms. Most of my work revolves around full stack projects, deployed on my own Docker-based server. I'm always looking for new projects to take on.
+I build web applications, self-host my own production infrastructure, and run my own companies. I'm also an active crypto trader, which drives my work on trading platforms. Everything I build runs on infrastructure I host and manage myself, on my own Docker-based server. I'm always looking for new projects to take on.
 
 ## What I'm Working On
 
-### Inventory & Fulfillment App
-A full-stack platform built around a Shopify store, consisting of a backend integration, native mobile apps for customers, and a custom dashboard for staff.
-The backend connects the store's inventory directly to its supplier through a custom API, syncing product data between the Shopify GraphQL API and the Bol.com API to automatically keep stock levels and pricing up to date. It handles uploading new products, removing discontinued ones, and uses the MyParcel API to trigger custom actions on incoming orders. A full SEPA mandate system via the Mollie API powers in-store subscriptions.
-Customers can browse and order through dedicated Android and iOS apps, while staff manage day-to-day operations through the internal dashboard.
-<br>
-*This is a private application built for a specific client and is not publicly available.*
+### [Propper](https://proppertrading.com)
+Founder & CEO. A full-stack trading platform with complete white-label support for proprietary trading firms — born out of my own trading. Features include live CME Group market data, low-latency order execution via globally distributed AWS servers, and full account lifecycle management covering demo and live accounts, trades, payouts, and per-trade monitoring. The platform ships with built-in white-label AI tooling for both traders and firm administrators, along with a custom admin dashboard.
 
 ### [Sovore](https://sovore.com)
-My own company, built on top of self-hosted infrastructure. Sovore offers web, database, and game server hosting, along with custom-built phone and desktop applications and full-stack websites. Currently in development: an online database client that lets you connect to any database anywhere in the world and manage them all from a single, clean interface - a modern replacement for tools like phpMyAdmin, Supabase Studio, and SQL Server Management Studio.
+My own company, built on top of self-hosted infrastructure. Sovore offers web, database, and game server hosting, along with custom-built phone and desktop applications and full-stack websites. Currently in development: an online database client that lets you connect to any database anywhere in the world and manage them all from a single, clean interface — a modern replacement for tools like phpMyAdmin, Supabase Studio, and SQL Server Management Studio.
 
-### [Propper](https://proppertrading.com)
-A full-stack trading platform with complete white-label support for proprietary trading firms. Features include a top-level data feed from CME Group, ultra-low-latency order execution via globally distributed AWS servers, and full account lifecycle management covering demo and live accounts, trades, payouts, and per-trade monitoring. The platform ships with built-in white-label AI tooling for both traders and firm administrators, along with a custom admin dashboard.
+### Inventory & Fulfillment App
+A full-stack platform built around a Shopify store: a backend integration, native mobile apps for customers, and a custom dashboard for staff.
+- **Inventory sync** — connects the store to its supplier through a custom API, syncing product data between the Shopify GraphQL API and the Bol.com API to keep stock and pricing up to date (upload, removal, price/stock updates)
+- **Order automation** — MyParcel API triggers custom actions on incoming orders
+- **Subscriptions** — full SEPA mandate system via the Mollie API for in-store subscriptions
+- **Apps & dashboard** — native Android & iOS ordering apps for customers, internal dashboard for staff
+
+*This is a private application built for a specific client and is not publicly available.*
 
 ## Tech Stack
 
@@ -45,4 +47,4 @@ A full-stack trading platform with complete white-label support for proprietary 
 
 ---
 
-Got an idea or project you need built? [Get in touch](https://sovore.com/contact) - I'm always open to new work.
+Got an idea or project you need built? [Get in touch](https://sovore.com/contact) — I'm always open to new work.
